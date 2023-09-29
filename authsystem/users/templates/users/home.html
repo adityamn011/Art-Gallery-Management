@@ -1,0 +1,16 @@
+{% extends 'users/base.html' %}
+{% load static %}
+{% block content %}
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <div class="container">
+            <div class="row g-0">
+                <div class="col-sm-6 col-md-8" id="header-text">
+                  <h1 id="header-h1">Welcome to<br> The Louvre. </h1>
+                  <p id="header-paragraph">The inspiration for this name was taken<br> the most popular art gallery in the world <br> that is located in the city of Paris </p>
+                  <a href="https://en.wikipedia.org/wiki/Louvre" target="_blank"class="btn" style="color: white; background-color: #fd5e14;"type="submit" id="body-link-row">Discover More</a>
+                </div>
+
+                <div class="col-6 col-md-4" id="header-image"><img src="images/van_gogh.jpg" alt=""></div>
+              </div>
+    </div>
+{% endblock content %}
